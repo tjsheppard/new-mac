@@ -1,1 +1,26 @@
-# new-mac
+# New Mac
+
+This repository contains a script to automate the setup of a new Mac environment with essential tools, applications, and custom configurations. Designed for developers and power users, this script installs command-line utilities, GUI applications, and applies system preferences to streamline your workflow on macOS.
+
+## Features
+
+- Installs Xcode Command Line Tools
+- Installs and updates Homebrew, along with essential CLI tools (e.g., Git, Node, Python)
+- Installs development, productivity, and media applications using Homebrew Cask
+- Installs select applications from the Mac App Store via `mas`
+- Configures macOS Dock and Finder with developer-friendly settings
+- Sets the desktop wallpaper to "Solar Gradients"
+
+## Prerequisites
+
+- macOS (compatible with recent macOS versions)
+- An active internet connection
+- Apple ID (required for Mac App Store installations)
+
+## Usage
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/tjsheppard/New-Mac.git
+cd New-Mac
