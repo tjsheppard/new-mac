@@ -22,5 +22,5 @@ This repository contains a script to automate the setup of a new Mac environment
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/tjsheppard/New-Mac.git
-cd New-Mac
+git clone https://github.com/tjsheppard/new-mac.git
+cd new-mac
