@@ -1,0 +1,13 @@
+mas install 497799835   # Xcode
+mas install 937984704   # Amphetamine
+mas install 928871589   # Contrast
+mas install 571213070   # DaVinci Resolve
+mas install 880001334   # Reeder
+mas install 1246651828  # Crouton
+mas install 1289583905  # Pixelmator Pro
+mas install 1549538329  # Beat
+mas install 1502839586  # Hand Mirror
+mas install 1484348796  # Endel
+mas install 1136220934  # Infuse
+mas install 1497435571  # Simple Comic
+mas install 470158793   # Keka
