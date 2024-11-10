@@ -43,11 +43,26 @@ while IFS= read -r app || [[ -n "$app" ]]; do
     fi
 done < brew-apps.txt
 
-# Step X: Configure Git (replace X with the appropriate step number)
+# Step 4: Install Mac App Store Apps from mas-apps.txt
+echo "Installing Mac App Store applications from mas-apps.txt..."
+while IFS= read -r line || [[ -n "$line" ]]; do
+    # Skip comments and empty lines
+    [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
+
+    app_id=$(echo "$line" | awk '{print $1}')
+    app_name=$(echo "$line" | cut -d' ' -f2-)
+    echo "Installing $app_name..."
+    mas install "$app_id"
+done < mas-apps.txt
+
+# Step 6: Clean up Homebrew
+echo "Cleaning up Homebrew installations..."
+brew cleanup
+
+# Step 5: Configure Git
 echo "Setting up Git configuration..."
 
-# Read Git name and email from gitconfig.txt
-GIT_CONFIG_FILE="gitconfig.txt"
+GIT_CONFIG_FILE="git-config.txt"
 
 if [[ -f "$GIT_CONFIG_FILE" ]]; then
     # Extract name and email values
@@ -79,23 +94,7 @@ else
     echo "email=your.email@example.com"
 fi
 
-# Step 4: Install Mac App Store Apps from mas-apps.txt
-echo "Installing Mac App Store applications from mas-apps.txt..."
-while IFS= read -r line || [[ -n "$line" ]]; do
-    # Skip comments and empty lines
-    [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
-
-    app_id=$(echo "$line" | awk '{print $1}')
-    app_name=$(echo "$line" | cut -d' ' -f2-)
-    echo "Installing $app_name..."
-    mas install "$app_id"
-done < mas-apps.txt
-
-# Step 6: Clean up Homebrew
-echo "Cleaning up Homebrew installations..."
-brew cleanup
-
-# Step 7: Customize the macOS Dock
+# Step 6: Customize the macOS Dock
 echo "Customizing the macOS Dock..."
 
 # Clear all applications from the Dock
@@ -154,7 +153,7 @@ echo "Applying Finder settings..."
 killall Finder
 echo "Finder customization complete! 🚀"
 
-# Step 9: Set Wallpaper to Solar Gradients
+# Step 7: Set Wallpaper to Solar Gradients
 WALLPAPER_PATH="/System/Library/Desktop\ Pictures/Solar Gradients.madesktop"
 
 # Check if wallpaper file exists
