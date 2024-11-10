@@ -82,7 +82,7 @@ for app in google-chrome microsoft-edge firefox-developer arc visual-studio-code
             microsoft-powerpoint microsoft-excel microsoft-teams loom 1password chatgpt notion github \
             monitorcontrol whatsapp transmit transmission onyx discord steam warp logi-options+ raycast \
             geekbench geekbench-ai adguard stremio mullvadvpn clipy screen-studio vanilla spotify iina plex \
-            sony-ps-remote-play; do
+            sony-ps-remote-play audacity keyboardcleantool balenaetcher openmtp gog-galaxy; do
     if brew list --cask "$app" &>/dev/null; then
         echo "$app is installed"
     else
