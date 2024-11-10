@@ -33,5 +33,5 @@ chmod +x mac-setup.sh
 ```
 Run the script with sudo:
 ```bash
-sudo ./mac-setup.sh
+./mac-setup.sh
 ```
