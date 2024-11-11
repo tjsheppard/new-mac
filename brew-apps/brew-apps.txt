@@ -8,6 +8,7 @@ bottom
 mas
 docker
 ffmpeg
+get_iplayer
 
 # Personal
 cask:google-chrome@dev
@@ -36,11 +37,9 @@ cask:transmission
 cask:loom
 cask:raycast
 cask:logi-options+
-cask:clipy
 cask:screen-studio
 cask:vanilla
 cask:audacity
-cask:keyboardcleantool
 cask:balenaetcher
 cask:openmtp
 cask:notunes
@@ -48,7 +47,6 @@ cask:transmit
 cask:shottr
 cask:macupdater
 cask:handbrake
-cask:get_iplayer
 cask:tailscale
 cask:monitorcontrol
 cask:onyx

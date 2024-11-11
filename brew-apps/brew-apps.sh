@@ -1,16 +1,39 @@
 #!/bin/bash
 
-# Install apps
-echo "Installing packages from brew-apps.txt..."
+# Install or update apps
+echo "Installing or updating packages from brew-apps.txt..."
 while IFS= read -r app || [[ -n "$app" ]]; do
     # Skip comments and empty lines
     [[ "$app" =~ ^#.*$ || -z "$app" ]] && continue
 
-    # Check for Cask apps and install them separately
+    # Check for Cask apps and install/update them separately
     if [[ "$app" == cask:* ]]; then
-        brew install --cask "${app#cask:}"
+        app_name="${app#cask:}"  # Extract the app name without 'cask:'
+        
+        if brew list --cask "$app_name" &>/dev/null; then
+            if brew outdated --cask "$app_name" &>/dev/null; then
+                echo "$app_name is up-to-date. Skipping..."
+            else
+                echo "Updating $app_name..."
+                brew upgrade --cask "$app_name"
+            fi
+        else
+            echo "Installing $app_name..."
+            brew install --cask "$app_name"
+        fi
     else
-        brew install "$app"
+        # For regular (non-Cask) packages
+        if brew list "$app" &>/dev/null; then
+            if brew outdated "$app" &>/dev/null; then
+                echo "$app is up-to-date. Skipping..."
+            else
+                echo "Updating $app..."
+                brew upgrade "$app"
+            fi
+        else
+            echo "Installing $app..."
+            brew install "$app"
+        fi
     fi
 done < brew-apps.txt
 
