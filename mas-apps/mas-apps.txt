@@ -1,12 +1,12 @@
 497799835  # Xcode
 937984704  # Amphetamine
 571213070  # DaVinci Resolve
-880001334  # Reeder
-1246651828 # Crouton
+6475002485 # Reeder
+1461650987 # Crouton
 1289583905 # Pixelmator Pro
 1549538329 # Beat
 1502839586 # Hand Mirror
-1484348796 # Endel
+1346247457 # Endel
 1136220934 # Infuse
 1497435571 # Simple Comic
 470158793  # Keka

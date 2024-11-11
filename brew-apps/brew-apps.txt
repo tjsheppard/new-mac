@@ -57,6 +57,8 @@ cask:linear-linear
 cask:github
 cask:proxyman
 cask:orbstack
+cask:dbngin
+cask:tableplus
 
 # Work
 cask:microsoft-outlook
