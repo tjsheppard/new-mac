@@ -1,6 +1,6 @@
 # Terminal Tools
 git
-node
+nvm
 deno
 python3
 wget
@@ -10,6 +10,12 @@ docker
 ffmpeg
 get_iplayer
 pnpm
+vim
+yt-dlp
+mailsy
+imagemagick
+yarn
+zsh-completions
 
 # App Tools
 cask:warp
