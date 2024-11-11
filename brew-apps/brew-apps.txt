@@ -41,11 +41,7 @@ cask:arc
 cask:spotify
 cask:iina
 cask:plex
-cask:sony-ps-remote-play
-cask:stremio
-cask:gog-galaxy
 cask:discord
-cask:steam
 cask:1password
 cask:chatgpt
 cask:notion

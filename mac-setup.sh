@@ -33,7 +33,6 @@ defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock orientation -string "left"
 defaults write com.apple.dock magnification -bool false
 defaults write com.apple.dock autohide -bool true
-defaults write com.apple.dock autohide-time-modifier -float 0.5
 
 # Restart the Dock to apply changes
 killall Dock
