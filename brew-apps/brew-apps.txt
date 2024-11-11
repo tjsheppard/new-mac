@@ -9,6 +9,7 @@ mas
 docker
 ffmpeg
 get_iplayer
+pnpm
 
 # App Tools
 cask:warp

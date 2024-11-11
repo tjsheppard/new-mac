@@ -23,7 +23,10 @@ fi
 echo "Updating Homebrew..."
 brew update
 
-# Step 6: Customize the macOS Dock
+# Step 3: Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Step 4: Customize the macOS Dock
 echo "Customizing the macOS Dock..."
 
 # Clear all applications from the Dock
@@ -65,7 +68,7 @@ echo "Applying Finder settings..."
 killall Finder
 echo "Finder customization complete! 🚀"
 
-# Step 7: Set Wallpaper to Solar Gradients
+# Step 5: Set Wallpaper to Solar Gradients
 WALLPAPER_PATH="/System/Library/Desktop Pictures/Solar Gradients.madesktop"
 
 # Check if wallpaper file exists
