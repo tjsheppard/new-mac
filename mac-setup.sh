@@ -31,7 +31,6 @@ defaults write com.apple.dock persistent-apps -array
 
 # Position Dock on the left, set size, disable magnification, and auto-hide
 defaults write com.apple.dock orientation -string "left"
-defaults write com.apple.dock tilesize -int 100
 defaults write com.apple.dock magnification -bool false
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-time-modifier -float 0.5
@@ -58,22 +57,9 @@ defaults write com.apple.finder ShowStatusBar -bool true
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
-# Set default Finder location to Home folder
-defaults write com.apple.finder NewWindowTarget -string "PfHm"
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
-
-# Set Finder to display items in list view by default
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-
-# Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
-
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
-
-# Enable text selection in Quick Look previews
-defaults write com.apple.finder QLEnableTextSelection -bool true
 
 # Apply Finder settings by restarting Finder
 echo "Applying Finder settings..."

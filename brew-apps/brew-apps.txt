@@ -1,4 +1,4 @@
-# Development Tools
+# Terminal Tools
 git
 node
 deno
@@ -10,28 +10,7 @@ docker
 ffmpeg
 get_iplayer
 
-# Personal
-cask:google-chrome@dev
-cask:firefox@developer-edition
-cask:arc
-cask:spotify
-cask:iina
-cask:plex
-cask:sony-ps-remote-play
-cask:stremio
-cask:gog-galaxy
-cask:discord
-cask:steam
-cask:1password
-cask:chatgpt
-cask:notion
-cask:whatsapp
-cask:affinity-designer
-cask:affinity-photo
-cask:affinity-publisher
-cask:figma
-
-# Utils
+# App Tools
 cask:warp
 cask:transmission
 cask:loom
@@ -54,6 +33,27 @@ cask:adguard
 cask:mullvadvpn
 cask:geekbench
 cask:geekbench-ai
+
+# Personal
+cask:google-chrome@dev
+cask:firefox@developer-edition
+cask:arc
+cask:spotify
+cask:iina
+cask:plex
+cask:sony-ps-remote-play
+cask:stremio
+cask:gog-galaxy
+cask:discord
+cask:steam
+cask:1password
+cask:chatgpt
+cask:notion
+cask:whatsapp
+cask:affinity-designer
+cask:affinity-photo
+cask:affinity-publisher
+cask:figma
 
 # Dev
 cask:visual-studio-code
