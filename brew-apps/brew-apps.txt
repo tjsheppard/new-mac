@@ -40,6 +40,7 @@ cask:adguard
 cask:mullvadvpn
 cask:geekbench
 cask:geekbench-ai
+cask:pearcleaner
 
 # Personal
 cask:google-chrome@dev

@@ -1,6 +1,5 @@
 497799835  # Xcode
 937984704  # Amphetamine
-571213070  # DaVinci Resolve
 6475002485 # Reeder
 1461650987 # Crouton
 1289583905 # Pixelmator Pro
