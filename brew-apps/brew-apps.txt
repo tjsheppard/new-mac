@@ -1,77 +1,74 @@
 # Terminal Tools
-git
-nvm
-deno
-python3
-wget
-bottom
-mas
-docker
-ffmpeg
-get_iplayer
-pnpm
-vim
-yt-dlp
-mailsy
-imagemagick
-yarn
-zsh-completions
+git  # A distributed version control system to track changes in source code during software development.
+nvm  # Node Version Manager, a tool for managing multiple versions of Node.js on a single machine.
+deno  # A modern runtime for JavaScript and TypeScript that is secure and built in Rust.
+python3  # A popular programming language that supports multiple programming paradigms and is widely used in various applications.
+wget  # A command-line utility for downloading files from the web using HTTP, HTTPS, and FTP protocols.
+bottom  # A command-line tool for monitoring system resources in a visually appealing way with a bottom-up view.
+mas  # A Mac App Store command line interface that allows you to search for and install macOS applications directly from the terminal.
+docker  # A platform that uses OS-level virtualization to deliver software in packages called containers.
+ffmpeg  # A powerful multimedia framework for recording, converting, and streaming audio and video.
+get_iplayer  # A command-line utility for downloading TV programs and radio shows from the BBC iPlayer.
+pnpm  # A fast, disk space-efficient package manager for JavaScript that uses a non-flat node_modules structure.
+vim  # A highly configurable text editor built to enable efficient text editing and programming.
+yt-dlp  # A fork of youtube-dl that allows you to download videos from various websites, including YouTube.
+mailsy  # A tool for sending emails, typically used for development or testing email sending functionality.
+imagemagick  # A software suite for creating, editing, and converting bitmap images.
+yarn  # A package manager for JavaScript that helps manage project dependencies efficiently.
+zsh-completions  # A collection of additional autocompletions for the Z shell (zsh).
 
 # App Tools
-cask:warp
-cask:transmission
-cask:loom
-cask:raycast
-cask:logi-options+
-cask:screen-studio
-cask:vanilla
-cask:audacity
-cask:balenaetcher
-cask:openmtp
-cask:notunes
-cask:transmit
-cask:shottr
-cask:macupdater
-cask:handbrake
-cask:tailscale
-cask:monitorcontrol
-cask:onyx
-cask:adguard
-cask:mullvadvpn
-cask:geekbench
-cask:geekbench-ai
-cask:pearcleaner
+cask:warp  # A terminal emulator designed for speed and efficiency, focusing on a modern user experience.
+cask:transmission  # A lightweight BitTorrent client for macOS that is open-source and easy to use.
+cask:raycast  # A productivity tool that enables quick access to applications, files, and actions through a command palette.
+cask:logi-options+  # A software tool to customize and optimize Logitech mouse settings and behaviors.
+cask:vanilla  # A tool for hiding unwanted apps from your Mac's menu bar for a cleaner workspace.
+cask:audacity  # A free, open-source audio editing software for recording and editing sounds.
+cask:balenaetcher  # A cross-platform tool for flashing OS images to SD cards and USB drives, made simple.
+cask:openmtp  # An application for managing files on your iOS devices without iTunes.
+cask:notunes  # A lightweight utility for syncing music files between Mac and iOS devices without iTunes.
+cask:transmit  # A powerful file transfer client for FTP, SFTP, and WebDAV on macOS.
+cask:macupdater  # A tool that keeps your Mac applications up to date automatically.
+cask:handbrake  # An open-source transcoder for digital video files, used for encoding and converting video formats.
+cask:tailscale  # A secure VPN service that creates a mesh network, allowing devices to connect directly to each other.
+cask:monitorcontrol  # A utility for controlling external monitors from your Mac, including brightness and volume.
+cask:onyx  # A multifunctional utility that performs maintenance and optimization tasks for macOS.
+cask:adguard  # An ad-blocking application that protects users from intrusive ads and trackers.
+cask:mullvadvpn  # A privacy-focused VPN service that protects your online activity and identity.
+cask:geekbench  # A benchmarking tool that measures your system's performance for CPU and GPU.
+cask:geekbench-ai  # A benchmarking tool specifically designed to test AI and machine learning capabilities of hardware.
+cask:cleanshot  # A screenshot and screen recording tool for macOS with advanced editing features.
 
 # Personal
-cask:google-chrome@dev
-cask:firefox@developer-edition
-cask:arc
-cask:spotify
-cask:iina
-cask:plex
-cask:discord
-cask:1password
-cask:chatgpt
-cask:notion
-cask:whatsapp
-cask:affinity-designer
-cask:affinity-photo
-cask:affinity-publisher
-cask:figma
+cask:google-chrome@dev  # The development version of Google Chrome, featuring the latest updates and experimental features.
+cask:firefox@developer-edition  # The developer edition of Firefox, providing early access to new features and tools for web developers.
+cask:arc  # A modern web browser focusing on user experience and design, aiming to enhance productivity.
+cask:spotify  # A digital music service that gives you access to millions of songs and podcasts.
+cask:iina  # A modern media player for macOS that supports a wide range of formats and features.
+cask:plex  # A media server platform for organizing and streaming your personal video, music, and photo libraries.
+cask:discord  # A communication platform for gamers and communities with voice, video, and text chat capabilities.
+cask:1password  # A password manager that helps you store and manage your passwords securely.
+cask:chatgpt  # An application for accessing OpenAI's ChatGPT or other AI-driven chat services.
+cask:notion  # An all-in-one workspace for note-taking, project management, and collaboration.
+cask:whatsapp  # A messaging application for sending messages, photos, and videos over the internet.
+cask:affinity-designer  # A professional graphic design software for creating vector graphics and illustrations.
+cask:affinity-photo  # A powerful photo editing software that offers many advanced editing features.
+cask:affinity-publisher  # A desktop publishing application designed for creating print and digital publications.
+cask:figma  # A collaborative interface design tool used for UI/UX design with real-time feedback.
 
 # Dev
-cask:visual-studio-code
-cask:linear-linear
-cask:github
-cask:proxyman
-cask:orbstack
-cask:dbngin
-cask:tableplus
+cask:visual-studio-code  # A source-code editor developed by Microsoft, featuring support for debugging, syntax highlighting, and extensions.
+cask:linear-linear  # A project management tool designed for software development teams that emphasizes workflow efficiency.
+cask:github  # The GitHub desktop application that provides a GUI for managing GitHub repositories and version control.
+cask:proxyman  # A web debugging proxy tool for inspecting and manipulating HTTP/HTTPS requests and responses.
+cask:orbstack  # A development environment and toolset for containerized applications, simplifying multi-cloud deployments.
+cask:dbngin  # A database management tool that allows you to create, run, and manage multiple database instances.
+cask:tableplus  # A modern database management tool for relational databases, providing a user-friendly interface for developers.
 
 # Work
-cask:microsoft-outlook
-cask:microsoft-word
-cask:microsoft-powerpoint
-cask:microsoft-excel
-cask:microsoft-teams
-cask:microsoft-edge@dev
+cask:microsoft-outlook  # A personal information manager from Microsoft that includes email, calendar, tasks, and contacts functionalities.
+cask:microsoft-word  # A word processing application developed by Microsoft for creating and editing text documents.
+cask:microsoft-powerpoint  # A presentation graphics program developed by Microsoft for creating slide-based presentations.
+cask:microsoft-excel  # A spreadsheet program by Microsoft used for data analysis and visualization with formulas and functions.
+cask:microsoft-teams  # A collaboration platform that integrates chat, video meetings, and file sharing for teams and organizations.
+cask:microsoft-edge@dev  # The development version of Microsoft Edge, featuring the latest builds and experimental features.
