@@ -4,7 +4,6 @@
 1461650987 # Crouton
 1289583905 # Pixelmator Pro
 1549538329 # Beat
-1502839586 # Hand Mirror
 1346247457 # Endel
 1136220934 # Infuse
 1497435571 # Simple Comic
